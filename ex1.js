@@ -23,8 +23,13 @@ function Median(arr) {
     return arr[Math.floor(arr.length / 2)];
   }
 }
+function RangeSecond(arr) {
+  var middle = arr.length / 2;
+  var arrnew = arr.slice(middle);
+  return Range(arrnew);
+}
 
 const grades = [73, 91, 88, 56, 62, 84, 95, 96, 88, 92]; //56,62,73,84,88,88,91,92,95,96
 //document.write(Range(grades));
-
-document.write(Median(grades));
+//document.write(Median(grades));
+document.write(RangeSecond(grades));
