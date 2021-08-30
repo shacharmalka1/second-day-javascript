@@ -13,4 +13,5 @@ function Range(arr) {
   return max - min;
 }
 
+const grades = [73, 91, 88, 56, 62, 84, 95, 96, 88, 92];
 document.write(Range(grades));
